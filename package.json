@@ -1,0 +1,27 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaskern/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Lucas Kern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaskern/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/lucaskern/Simple-HTTP-Assignment-Start#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
